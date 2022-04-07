@@ -1,10 +1,6 @@
 server:
-    port: 8081
+    port: 8099
 
 spring:
-    cloud:
-        config:
-            server:
-                git:
-                    uri: https://github.com/fabiost42/BootcampConfigService.git
-                    searchPaths: config-data
+    aplication:
+        name: spring-prueba
